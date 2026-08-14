@@ -1,0 +1,25 @@
+# Android / Gradle
+.gradle/
+build/
+*/build/
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+.externalNativeBuild/
+.cxx/
+
+# Generated Compact artifacts
+contract/src/managed/
+contract/managed/
+**/managed/
+
+# Local secrets
+.env
+*.keystore
+*.jks
+
+# OS
+.DS_Store
+Thumbs.db
