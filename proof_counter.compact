@@ -1,0 +1,10 @@
+pragma language_version >= 0.16 && <= 0.25;
+import CompactStandardLibrary;
+
+// Public state stored on the Midnight ledger.
+export ledger round: Counter;
+
+// Increment the counter by one.
+export circuit increment(): [] {
+    round.increment(1);
+}
